@@ -1,0 +1,288 @@
+
+.slider-section
+{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.slider-section .carousel
+{
+    width: 100%;
+    height: 100%;
+}
+.slider-section .carousel .carousel-inner
+{
+    width: 100%;
+    height: 100%;
+}
+.slider-section .carousel .carousel-inner .carousel-item
+{
+    width: 100%;
+    height: 100%;
+}
+.slider-section .carousel .carousel-inner .carousel-item img
+{
+    height: 100%;
+}
+.slider-section .carousel .carousel-inner .carousel-item .carousel-caption
+{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.info{
+    text-align: center;
+    color: rgb(239, 239, 255);
+    font-size: 60px;
+    /* padding-bottom: 300px; */
+}
+.info-peragrap{
+    text-align: center;
+    font-size: 30px;
+}
+.info-01{
+    text-align: center;
+    margin-top: 30px;
+} 
+.info-01 h1{
+    font-size: 50px;
+}
+.info-div{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px;
+    
+}
+.carsor{
+    width: 150px;
+    height: 95px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 20px;
+    background-color: rgb(199, 188, 188);
+}
+.carsor-01{
+        border: 3px solid red;
+        width: 150px;
+        height: 95px;
+        text-align: center;
+        padding-top: 25px;
+        margin: 20px;
+        background-color: rgb(199, 188, 188);
+        border-radius: 8px;
+}
+.header-4{
+    text-align: center;
+}
+.blog{
+    text-align: center;
+    margin: 50px;
+}
+.blog button{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.medil-section{
+    text-align: center;
+}
+.medil-section-01{
+    display: flex;
+    justify-content: center;
+   
+}
+.medil-section-02{
+    padding: 20px 15px;
+    background-color: bisque;
+    margin: 10px;
+}
+.medil-section-02 span{
+    font-size: 29px;
+}
+
+.third-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.btn button{
+    background-color: orange;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.third-div img{
+    width: 500px;
+}
+
+.four-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+.four-div img{
+    width: 500px;
+}
+.email-section
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+.five-section{
+    text-align: center;
+    margin: 40px;
+}
+.five-section-033{
+    width: 700px;
+    height: 140px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 134, 124);
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+
+
+}
+.five-section-033 input{
+    padding: 5px 20px;
+    background-color: rgba(255,255,255,0.7);
+    outline: none;
+    border: none;
+}
+.five-section-033 button{
+    padding: 5px 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+footer h3{
+    color: orangered;
+}
+
+
+@media (max-width: 768px)
+{
+    .slider-section
+    {
+        height: 500px;
+    }
+    .slider-section .carousel .carousel-inner .carousel-item .carousel-caption h1
+    {
+        font-size: 2em;
+    }
+    .slider-section .carousel .carousel-inner .carousel-item .carousel-caption p
+    {
+        font-size: 1em;
+    }
+    .info-01 h1
+    {
+        font-size: 2em;
+    }
+    .info-div
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .medil-section-01
+    {
+        display: grid;
+    }
+    .third-div
+    {
+        display: grid;
+    }
+    .four-div
+    {
+        display: grid;
+    }
+    .five-section-033
+    {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .slider-section {
+        height: 400px;
+    }
+    .slider-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 1.5em;
+    }
+    
+    .slider-section .carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 0.8em;
+    }
+    .info-01 h1 {
+        font-size: 1.5em;
+    }
+    .info-01 p
+    {
+        font-size: 0.8em;
+    }
+    .info-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .info-div .carsor,
+    .info-div .carsor-01
+    {
+        font-size: 0.8em;
+    }
+    .third-div div:nth-child(1),
+    .four-div div:nth-child(2)
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+    /* .third-div div img,
+    .four-div div img {
+        width: 90%;
+        height: 500px;
+    } */
+}
+
+@media (max-width: 400px)
+{
+    .slider-section {
+        height: 350px;
+    }
+    .slider-section .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 1.2em;
+    }
+    
+    .slider-section .carousel .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 0.7em;
+    }
+    .info-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 40px;
+    }
+    .five-section-033
+    {
+        width: 100%;
+    }
+}
